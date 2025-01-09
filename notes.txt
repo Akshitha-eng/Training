@@ -137,3 +137,8 @@ Decision making statments:-
 
 prompt():- this method is used to collect the data from the users.
 
+
+Note:-
+-current version of javascript is es14.
+-es6-is stable version
+es

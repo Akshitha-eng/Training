@@ -1,7 +1,4 @@
-//! for loop
-//for(let i=1;i<=5;i++){
-   // console.log("Good Morning");
-//}
+
 
 let n = 100;
 for(let i = 0; i<=n;i++)
