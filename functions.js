@@ -1,4 +1,4 @@
- function addToCart(){
+ /*function addToCart(){
      alert("Product is added to cart")
  }
 
@@ -13,7 +13,7 @@
 
 // ! function without parameters
  function demo(){
-     console.log("function without parameters");
+    console.log("function without parameters");
  }
  demo();
 
@@ -27,10 +27,10 @@
  userDetails("Yeshwant" , 20 , "Hyderbad");
 
 //! anonymus function
- function(){
-     console.log("Anonymus function");
- }
- ();
+function(){
+    console.log("Anonymus function");
+}
+();
 
 // ! function  expression
  let x = function(){
@@ -68,7 +68,7 @@
      x();
 //! return function
 function demo(a,b){
-    return a+b;
+     return a+b;
 };
 let x = demo(5,5);
 console.log(x);
@@ -101,4 +101,24 @@ function x(){
     console.log(sal);
     console.log(a,b);
 };
+x();*/
+
+
+function x(){
+    let a = 10;
+    const b = 20;
+    console.log(a ,b);
+    function y() {
+        let p="Js";
+        var q = "ReactsJs";
+        console.log(p ,q);
+        function z(){
+            const username = "Harish";
+            console.log(a);
+            console.log(q);
+        }
+        z();
+    }
+    y();
+}
 x();
