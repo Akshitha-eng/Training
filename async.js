@@ -1,0 +1,12 @@
+console.log(10);
+console.log(20);
+setTimeout(()=>{
+    console.loag(30);
+})
+console.log(40);
+console.log(50);
+setInterval(()=>{
+    console.log(30);
+},5000)
+console.log(40);
+console.log(50);
