@@ -19,7 +19,7 @@ let x = [...ele];
 //console.log(x , Array.isArray(x));
 x.map(element=>{
     element.style.backgroundColor="orange"
-})*/
+})
 
 
 let ele = document.querySelectorAll(".test");
@@ -61,6 +61,47 @@ form.addEventListener("submit",(event)=>{
 
     
 
-})
+})*/
+
+let mainEle = document.createElement("div");
+
+mainEle.setAttribute("id","mainBlock");
+mainEle.style.border="2px solid red ";
+mainEle.style.width="550px";
+mainEle.style.height="550px";
+
+console.log(mainEle);
+
+let topEle document.createElement("div");
+topEle.setAttribute("class","topBlock");
+
+let image = document.createElement("img");
+image.src=""C:\Users\nirma\OneDrive\Documents\th.jpeg""
+image.style.width="550px"
+
+let bottomEle = document.createElement("div");
+btn.innerText="View More";
+btn.style.border="none";
+btn.style.padding="20px";
+btn.style.backgroundColor="dodgerblue";
+btn.style.color="white";
+
+bottomEle.appendChild(h1);
+bottomEle.appendChild(btn);
+
+topEle.appendChild(image);
+mainEle.appendChild(topEle);
+mainEle.appendChild(bottomEle);
+document.body.appendChild(mainEle);
+
+
+
+
+
+
+
+
+
+
 
 
