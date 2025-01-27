@@ -76,7 +76,7 @@ let topEle document.createElement("div");
 topEle.setAttribute("class","topBlock");
 
 let image = document.createElement("img");
-image.src=""C:\Users\nirma\OneDrive\Documents\th.jpeg""
+image.src="https://cdn.pixabay.com/photo/2023/02/09/16/43/cat-7779237_640.jpg";
 image.style.width="550px"
 
 let bottomEle = document.createElement("div");
@@ -94,6 +94,24 @@ mainEle.appendChild(topEle);
 mainEle.appendChild(bottomEle);
 document.body.appendChild(mainEle);
 
+
+
+let form = document.querySelector("form");
+
+let username = document.getElementById("uName");
+let password = document.getElementById("uPass");
+
+let gender = document.getElementsByName("gender");
+console.log(gender);    
+
+form.addEventListener("submit" , event=>{
+    event.preventDefault();
+    let un = username.value;
+    let up = password.value;
+    let gen = gender.value;
+
+    console.log(un , up , gen);
+})
 
 
 
