@@ -328,3 +328,7 @@ dynamic creation of html element from javascript:-
 - to create dynamic element in javascript we have a method called as "document.createElement()".
 - to create an attributes we have a method called as "setAtttribute()".
 - to remove attribute we have "removeAttribute()".
+
+
+Take a array of employee object where each object contains properties such as empID,empName,empCompany,empSalary,empAddress where empAddress if further having two more properties of object such as empCity,empArea
+print these properties in form a table on the UI by using javascript
